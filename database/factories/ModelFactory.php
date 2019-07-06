@@ -1,11 +1,11 @@
 <?php
 
 use App\User;
-use App\Models\Tag;
-use App\Models\Post;
+use App\Models\blog\Tag;
+use App\Models\blog\Post;
 use Faker\Generator;
-use App\Models\Comment;
-use App\Models\Category;
+use App\Models\blog\Comment;
+use App\Models\blog\Category;
 
 $factory->define(User::class, function (Generator $faker) {
     static $password;

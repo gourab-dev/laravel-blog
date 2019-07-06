@@ -2,10 +2,10 @@
 
 use App\User;
 use Carbon\Carbon;
-use App\Models\Tag;
-use App\Models\Post;
-use App\Models\Comment;
-use App\Models\Category;
+use App\Models\blog\Tag;
+use App\Models\blog\Post;
+use App\Models\blog\Comment;
+use App\Models\blog\Category;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
 
